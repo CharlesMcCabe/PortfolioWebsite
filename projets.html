@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Robotique</title>
+    <link rel="stylesheet" href="styleSiteWeb.css">
+</head>
+<body>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="topnav" id="myTopnav">
+      <a href="projets.html" class="active">Projets</a>
+      <a href="charlesMcCabe.html">Charles McCabe</a>
+      <a href="#contact">Me Contacter</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <header>
+        <h1>Projets Réalisés Et En Cours:</h1>
+    </header>
+    <section id="projets">
+        <div class="projet">
+            <div class = "container">
+                <img src="IMG_3707.JPEG" alt="Description de projet 1">
+                <div class="overlay" id="projet1" >
+                    <div class="details">
+                        <h1>Projet 1</h1>
+                        <p1>Description détaillée du projet 1...</p1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projet" onclick="showDetails('projet2')">
+            <img src="robot.png" alt="Description de projet 1">
+            <div class="details" id="projet2">
+                <h3>Projet 1</h3>
+                <p2>Description détaillée du projet 1...</p2>
+                <button onclick="hideDetails('projet2', event)">Fermer</button>
+            </div>
+        </div>
+        <div class="projet" onclick="showDetails('projet2')">
+            <img src="robot.png" alt="Description de projet 1">
+            <div class="details" id="projet2">
+                <h3>Projet 1</h3>
+                <p2>Description détaillée du projet 1...</p2>
+                <button onclick="hideDetails('projet2', event)">Fermer</button>
+            </div>
+        </div>
+        <div class="projet" onclick="showDetails('projet2')">
+            <img src="robot.png" alt="Description de projet 1">
+            <div class="details" id="projet2">
+                <h3>Projet 1</h3>
+                <p2>Description détaillée du projet 1...</p2>
+                <button onclick="hideDetails('projet2', event)">Fermer</button>
+            </div>
+        </div>
+    </section>
+    <section id="projets">
+        <div class="projet" onclick="showDetails('projet1')">
+            <img src="IMG_3707.JPEG" alt="Description de projet 1">
+            <div class="details" id="projet1" >
+                <h3>Projet 1</h3>
+                <p2>Description détaillée du projet 1...</p2>
+                <button onclick="hideDetails('projet1', event)">Fermer</button>
+            </div>
+        </div>
+        <div class="projet" onclick="showDetails('projet2')">
+            <img src="robot.png" alt="Description de projet 1">
+            <div class="details" id="projet2">
+                <h3>Projet 1</h3>
+                <p2>Description détaillée du projet 1...</p2>
+                <button onclick="hideDetails('projet2', event)">Fermer</button>
+            </div>
+        </div>
+        <div class="projet" onclick="showDetails('projet2')">
+            <img src="robot.png" alt="Description de projet 1">
+            <div class="details" id="projet2">
+                <h3>Projet 1</h3>
+                <p2>Description détaillée du projet 1...</p2>
+                <button onclick="hideDetails('projet2', event)">Fermer</button>
+            </div>
+        </div>
+        <div class="projet" onclick="showDetails('projet2')">
+            <img src="robot.png" alt="Description de projet 1">
+            <div class="details" id="projet2">
+                <h3>Projet 1</h3>
+                <p2>Description détaillée du projet 1...</p2>
+                <button onclick="hideDetails('projet2', event)">Fermer</button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Charles McCabe</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
