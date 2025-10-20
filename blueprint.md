@@ -75,5 +75,10 @@ This document outlines the design, features, and styling of the personal portfol
 - **Layout & Style:**
     - **"About Me" Section:** Maximized the impact of the profile picture by increasing its size to 350px. To support this, the `max-width` of the `.about-me-container` was expanded to `1000px`. The `flex-basis` properties of the image and text containers were fine-tuned to `45%` and `55%` respectively, ensuring a well-proportioned and visually engaging layout. The image size for mobile screens was also increased to `280px` for better visibility.
 
+##- V9 - Image Resolution Adjustment
+
+- **Layout & Style:**
+    - **"About Me" Section:** Reduced the size of the profile picture to 250px on desktop and 200px on mobile to optimize image loading and improve the visual balance of the section.
+
 - **Current Plan:**
-    - The current plan was to make the profile picture as large as possible while maintaining a good layout, which has been completed.
+    - The current plan was to reduce the resolution of the image in the about me section, which has been completed.

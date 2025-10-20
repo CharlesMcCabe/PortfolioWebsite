@@ -183,6 +183,11 @@ img, iframe {
     text-align: center;
     width: 90%;
   }
+
+  .overlay a {
+    font-size: 96%;
+    
+  }
   .container:hover .overlay {
     opacity: 0.9;
   }
@@ -256,8 +261,8 @@ img, iframe {
 }
 
 .about-me-image img {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 40%;
     border: 3px solid #00796B;
@@ -333,8 +338,8 @@ img, iframe {
     }
 
     .about-me-image img {
-        width: 280px;
-        height: 280px;
+        width: 200px;
+        height: 200px;
     }
 
     .projet {
